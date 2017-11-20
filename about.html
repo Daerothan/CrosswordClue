@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <title>Clue of the day</title>
+     <link rel="stylesheet" href="css/bootstrap.css">
+	 <link rel="stylesheet" href="css/stylesheet.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">  
+</head>
+<body>
+    <header>
+		<div id="head">
+			<a href="http://www.napier.ac.uk/"><img class="titleright" src="images/napierLogo.jpg" alt="Edinburgh Napier University Logo"/></a>
+		</div>
+	</header>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="mynav">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                   
+			</button>
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.php">Clue of the Day</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.php">Home</a></li>
+						<li><a href="calendar.php">Calendar</a></li>
+						<li><a href="about.html">About us</a></li>
+					</ul>
+				</div>
+			</div>
+	  </div>   
+    </nav>	
+  <div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="jumbotron">
+  <h1>Thanks for visiting!</h1>
+  <p>
+  This website was designed and built by the following Edinburgh Napier School of Computing students.
+  If you would like to learn more about the programmes and courses we studied you can follow these links.
+  </p>
+  <div class="row">
+  <div class="col-md-4 col-sm-12 col-xs-12 text-center">
+  <p><a class="btn btn-primary btn-lg about-btn" href="http://www.napier.ac.uk/courses/msc-computing-postgraduate-fulltime" role="button">MSc Computing</a></p>
+  </div>
+  <div class="col-md-4 col-sm-12 col-xs-12 text-center">
+  <p><a class="btn btn-primary btn-lg about-btn" href="http://www.napier.ac.uk/courses/msc-web-development-postgraduate-fulltime" role="button">MSc Web Development</a></p>
+  </div>
+  </div> 
+</div>
+</div>
+</div>
+     <div class="row">
+          <div class="col-md-4 col-sm-12">
+               <div class="well text-center">
+			   <div class="profile"><span class="glyphicon glyphicon-user"></span></div>
+			        <h1>Michael Bird</h1>
+					<h4>Programme: MSc Computing</h4>
+			   </div>
+          </div>
+          <div class="col-md-4 col-sm-12">		       
+               <div class="well text-center">
+			   <div class="profile"><span class="glyphicon glyphicon-user"></span></div>
+			        <h1>Suzanne Raine</h1>
+					<h4>Programme: MSc Computing</h4>
+			   </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+               <div class="well text-center">
+			   <div class="profile"><span class="glyphicon glyphicon-user"></span></div>
+			        <h1>Jonathan Tait</h1>
+					<h4>Programme: MSc Web Development</h4>
+			   </div>
+          </div>
+     </div>
+	 </div>	 
+<div class="container">
+		<div class="row introtxt">
+		<div class="col-md-12 text-center">
+		<br>
+		<p id="copyLink">If you would like to add a link to the Clue of the Day to your website you can copy the link below.</p>
+		</div>
+		<br>
+		<br>
+		<div class="col-md-12 text-center">
+			<p><textarea class="copytxtarea clueLink"><a href="http://www.student.soc.napier.ac.uk/~40290188/clue/"><img src="http://www.student.soc.napier.ac.uk/~40290188/clue/images/clueLogo.jpg"></a></textarea></p>
+            <p><button class="copytxtbtn">Copy</button></p>
+			<script>
+	            var copyTextareaBtn = document.querySelector('.copytxtbtn');
+	            copyTextareaBtn.addEventListener('click', function(event) {
+	            var copytxtarea = document.querySelector('.copytxtarea');
+	            copytxtarea.select();
+	            try {
+		             var successful = document.execCommand('copy');
+		             var msg = successful ? 'successful' : 'unsuccessful';
+	                } catch (err) {
+		                console.log('Oops, unable to copy');
+	                    }
+	                    });
+	         </script>
+		</div>
+		</div>
+    </div>  
+</body>
+</html>

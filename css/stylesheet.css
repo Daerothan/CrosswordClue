@@ -1,0 +1,291 @@
+
+html {
+     overflow-y: scroll;
+}
+
+/* CSS for Question Box */  
+ 
+.disableClick{
+    pointer-events: none;
+    }
+
+.disableClickbtn{
+    background-color: #8c0b2e !important;
+	pointer-events: none;
+    }
+	
+.disableClick{
+    pointer-events: none;
+    }
+ 
+#answertest {
+    text-align:center;
+    font-weight: bold;
+    }
+
+#right {
+    color: #008000;
+    }
+
+#wrong {
+    color: #DC143C;
+    }
+
+#hintBut {
+    display: none;
+	}
+
+#hint {
+	display: none;
+	}
+         
+.clueCon {
+    width: 100%;
+    }
+	
+.clueForm {
+	max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    }
+
+button.btn.btn-primary.btn-block {
+    width: 50%;
+    padding: 15px;
+    margin: 0 auto;
+	background-color: #D31145;
+	border-color: #D31145;
+	background-image: none;
+	}
+	
+.badge {
+	background-color: #D31145;
+	}   
+		
+button.btn.btn-primary {
+	background-color: #D31145;
+	border-color: #D31145;
+	background-image: none;
+	}
+		
+#gotoclue {
+	background-color: #D31145;
+	border-color: #D31145;
+	background-image: none;
+	}
+		   
+.btn.btn-primary {  
+    background-color: #D31145;
+    border-color: #D31145;
+    background-image: none;
+    }		
+
+.btn.btn-primary:hover {  
+    background-color: #8c0b2e;
+    border-color: #8c0b2e;
+    background-image: none;
+    }
+		   
+button.btn.btn-primary:hover {
+    background-color: #8c0b2e;
+    border-color: #8c0b2e;
+    background-image: none;
+    }
+		   	   
+#clueGuess {
+    border-color: #D31145;
+    }
+
+.cluebox {
+    max-width: 700px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    color: #595959;
+    }
+
+.clueCenter {
+    text-align: center;
+    }
+
+#clueback {
+    background-color: #f2f2f2;
+    }
+
+.glyphicon.glyphicon-star {
+    color: #D31145;
+    }
+		  
+.glyphicon.glyphicon-star-empty {
+    color: #D31145;
+    }
+	
+.icon-date {                
+    background: #f2f2f2 url(../images/calendar.png);
+	position: relative;
+	width: 50px;                
+	height: 50px;                
+	margin: 0px 0px 0px 100px;              
+	padding: 0px;
+    }
+
+.icon-date h3 {         
+	font-family: Helvetica, Sans-Serif;
+	color: #FFFFFF;
+	font-size: 10px;               
+	font-weight: bold;               
+    padding: 5px 0px 0px 0px;               
+	margin: 0px;               
+	text-transform: uppercase;               
+	}
+
+.icon-date h4 {                
+	font-family: Helvetica, Sans-Serif;
+	color: #333;                
+	font-size: 22px;                
+	font-weight: bold;                
+	padding: 7px 0px 0px 0px;                
+	margin: 0px;                
+	text-align: center;                
+	}
+	 
+#head {
+    background-color: #F2F2F2;
+	height:100px;		
+	}
+	
+.titleright {
+	float:right;
+	}
+/* CSS for Question Box End */ 
+
+
+
+
+
+/* Navbar */
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+#myNavbar > ul > li  a {
+	font-weight: bold;
+	color: white;
+	font-size: 1.3em;
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+
+	
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    }
+
+.navbar .mynav {
+    text-align: center;
+    }
+		   
+.navbar.navbar-default {
+    background: #D31145;
+    border-color: #D31145;
+	border-radius: 0px;
+    }
+	 	   		   
+.navbar-header {
+    display: none;
+    }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+   background-color: #8c0b2e;
+   }
+
+.navbar-default .navbar-brand{
+   color: white;
+   }
+
+
+ /* Navbar End */  
+ 
+ 
+/* CSS for mobiles */  
+@media only screen and (max-width: 500px) {
+      #head {
+        display:none;
+    }
+	.introtxt {
+	display:none;
+	}
+	.icon-date {
+	margin: 7px 0px 0px 50px !important;  
+	}
+	.navbar-header {
+    display: block;
+    }
+
+	.navbar-header .navbar-brand{
+    color: white;
+    font-size: 1.5em;
+	font-weight: bold;
+    }
+	#myNavbar {
+	border: none;
+    }	
+	.navbar-header .navbar-brand:hover{
+    color: white;
+    }
+	#clueLink {
+	display:none;
+	}
+	#myNavbar > ul {
+	width:100%;
+	padding: 0px 0px 0px 0px !important;
+	}
+
+	#myNavbar > ul > li  a {
+	font-weight: bold;
+	color: white;
+	font-size: 1.2em;
+	}
+	#myNavbar > ul > li  a:hover {
+	background-color: bbof3d;
+	font-weight: bold;
+	color: white;
+	}
+	#myNavbar > a {
+	padding: 0px 0px 0px 0px !important;
+	background-color: bbof3d;
+	}
+	}
+/* CSS for mobiles End */  
+
+/* CSS for link*/ 
+.clueLink {
+   width: 50%;
+   max-width: 50%;
+   height: 30%;
+   max-height: 30%;
+   }
+/* CSS for link End*/ 
+
+/* CSS for about*/ 
+
+.about-btn {
+width:100%;
+min-width: 100%;
+}
+
+.profile {
+font-size: 3em;
+text-align: center;
+}
+
+#copyLink {
+font-weight: bold;
+font-size: 1.3em;
+}
+
+/* CSS for about End*/
